@@ -15,10 +15,10 @@ print(removeLast("raise"))
 
 def sumBetweenOdd(x, y):
     z=0
-    for n in range(x,y):
+    for n in range(x+1,y):
         z += (n%2)* n
     print(z)
-print(sumBetweenOdd(5, 13))
+print(sumBetweenOdd(0, 0))
 
 def firstLast(w):
     if (w[0] == w[-1]):
