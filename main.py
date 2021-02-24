@@ -6,17 +6,19 @@ def countB(w):
     return count
 print (countB("bob"))
 
-def removeLast(w, x):
-    for i in range(0, len(w)):
-        (len(w) - x)
-        return w[len(w) - x -1]
-print(removeLast("raise", 3))
+def removeLast(w):
+    x=""
+    for i in range (0, len(w)-1):
+        x=x+ w[i]
+    return x 
+print(removeLast("raise"))
 
 def sumBetweenOdd(x, y):
+    z=0
     for n in range(x,y):
-        x += (n%2)* n
-    print(x)
-print(sumBetweenOdd(4, 13))
+        z += (n%2)* n
+    print(z)
+print(sumBetweenOdd(5, 13))
 
 def firstLast(w):
     if (w[0] == w[-1]):
